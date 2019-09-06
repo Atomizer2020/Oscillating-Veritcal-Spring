@@ -1,0 +1,57 @@
+TITLE:
+Anand Zorig, CSCI 261 SECTION-C, Vertically Oscillating Spring 
+
+PROBLEM DESCRIPTION:
+The purpose of this project was to take a second order linear Differential equation
+and apply it to a real world setting. That setting being a mass-spring system with
+no external forces. This allows the program to intake mass, damping coeffiecent,
+spring constant and user chosen constants to calculate the position of the spring
+at any given moment(limited from 0 to 100 for the project). The position would be 
+outputed with cartesian XY plane with positive Y axis being downwards. The mass 
+object would be represented as a circle, and the center of mass as its origin.
+
+PROGRAM DOCUMENTATION:
+This program requires SFML to run as it displays an object oscillating.
+This program utilizes iostream, iomanip, cstdlib, cmath, ctime, vector & SFML.
+
+The user will be prompted to enter in values that represent:
+Mass, Damping Coefficient, Spring Constant and Constant Variable Coefficients to
+satisfy the calculations it will be doing. With these inputs, the program will recognize
+what type of damped motion the mass-spring system will act out, and display that in a
+640 x 640 window.
+
+Modifications to the program could consist of:
+Changes to the mass objects display (ie: color, shape, radius).
+The bounds the mass spring system would oscillate between (for this case, 0 to 640 in the Y axis).
+Changing the range the program can calculate for further positions over longer periods of time.
+Having the program solve for a velocity function, as well as corresponding velocity values.
+Creating a nonlinear second order differential equation utilizing the method presented.
+in the program as well as transformations such as Bernoulli or Laplase.
+
+TEST:
+Depending on what the user enters, the program will
+1) Create a second order linear differential equation with user inputted values.
+2) Solve said equation and transform it into a general function/solution.
+3) Identify what type of damped motion the spring will simulate.
+4) Create a particular function/solution with the values the user has inputted.
+5) Create an array of positions the spring will be at ranging from the time being
+at 0 to 100.
+6) Display the mass object starting at the initial position, and simulate an oscillitory motion.
+
+REFLECTIONS:
+Throughout the process of this project I have learned numerous key things.
+Using SFML and displaying/animating objects. I would like to further develop 
+timing and framerates. Using C++ to calulate numeric values and solve equations
+has also been a key learning objective as it requires more thinking and logic to
+solve arithmatic.Improved my understanding with second order linear 
+Differential Equations has been instrumental for the success of this project, and 
+I feel comfortable doing these problems more than ever. For future projects, and a do-over
+circumstance, chosing a final project more fun/less math heavy/ would be the route to take.
+Having the freedom to be creative, and choosing an extention of a class I'm taking was
+somewhat "boring" in hindsight, no matter how much I enjoy these problems.
+
+Despite all of that, the project I have chosen was satisfactory and realizing that 
+my courses are not vacuum, and could be intertwinedis a valuble lesson that I've come to realize. 
+If one can notcompartmentalize their learnings to boxes, but have each of them interact with one 
+another, it can become a valuable asset and lead to broader views on any topic/issue.
+
